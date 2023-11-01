@@ -1,0 +1,62 @@
+
+.filme-info {
+    min-height: 100vh;
+    text-align: center;
+}
+.filmes-unidades-container {
+    width: 90%;
+    margin: 1rem auto;
+    min-height: 100vh;
+    padding: 1rem;
+    text-align: center;
+    color: white;
+}
+.filmes-unidades-container h1 {
+    margin: 2rem auto;
+}
+.filmes-unidades-container img {
+    min-width: 60%;
+    margin: 0;
+}
+.sinopse h3 {
+    margin: 0.5rem;
+}
+.sinopse p {
+    width: 80%;
+    margin: 0 auto;
+    text-align: justify;
+    font-size: 18px;
+}
+.botoes button {
+    width: 100px;
+    height: 30px;
+    font-size: 18px;
+    background-color: transparent;
+    margin: 1rem auto;
+    border: 1px solid silver;
+    outline: 0;
+    border-radius: 5px;
+    color: silver;
+    cursor: pointer;
+}
+.botoes button:active {
+    animation: animarBotoes 2s ease-in-out;
+    box-shadow: 1px 1px 5px silver;
+}
+@keyframes animarBotoes {
+    0% {
+        transform: scale(0.8);
+    }
+    100% {
+        transform: scale(1.0);
+    }
+}
+@media(max-width:768px) {
+    .filmes-unidades-container {
+        padding: 0;
+    }
+    .filmes-unidades-container img {
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}

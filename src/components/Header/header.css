@@ -1,0 +1,17 @@
+
+header {
+    width: 50%;
+    height: 100px;
+    margin: 0 auto 1rem;
+    border-bottom: 1px solid silver;
+    border-radius: 0 0 25px 25px;
+    text-align: center;
+    line-height: 100px;
+}
+.link-item {
+    width: 50%;
+    margin: 1rem;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}

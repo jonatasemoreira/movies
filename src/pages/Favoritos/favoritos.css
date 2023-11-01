@@ -1,0 +1,32 @@
+
+.meus-filmes {
+  width: 90%;
+  min-height: 100vh;
+  margin: 2rem auto;
+  text-align: center;
+}
+.lista-de-salvos {
+  margin-top: 2rem;
+}
+.lista-de-salvos li {
+  list-style-type: none;
+  background-image: linear-gradient(to right, rgba(0, 128, 0, 0.445), rgba(0, 0, 255, 0.445));
+  box-shadow: 1px 1px 5px black;
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border-radius: 10px;
+}
+.lista-de-salvos li span {
+  font-size: 20px;
+}
+.detalheFilm {
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+}
+.btn-remover {
+  width: 150px;
+  height: 40px;
+  margin-left: 20%;
+  font-size: 18px;
+}
